@@ -40,7 +40,7 @@ ReactDOM.render(
 - Run the linter(please do before committing changes): ```npm lint```
 
 # Docker <3
-Make sure you have Docker installed before using it ;)
+Make sure you have [Docker](https://www.docker.com/get-started) installed before using it ;)
 
 For the full experience to test locally how it runs on productions:
 - Create a image from the Docker file: ```docker build . -t onepager:latest```

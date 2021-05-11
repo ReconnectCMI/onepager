@@ -9,7 +9,6 @@ RUN npm run build
 # Runner container
 FROM node:14.16.0-alpine
 WORKDIR /usr/src/app
-COPY package.json /usr/src/app/
 COPY --from=builder /usr/src/app/build /usr/src/app/build
 RUN npm install -g serve
 EXPOSE 8080
