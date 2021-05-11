@@ -5,16 +5,26 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider as StyletronProvider, DebugEngine } from "styletron-react";
 import { Client as Styletron } from "styletron-engine-atomic";
+import { StyleReset, ThemeProvider } from 'atomize';
 
 const debug = process.env.NODE_ENV === "production" ? void 0 : new DebugEngine();
 
 // Create client engine instance
 const engine = new Styletron();
+const theme = {
+  colors: {
+    primary: 'tgrff',
+    accent: 'success700',
+  },
+};
 
 // Provide the engine to the app (debug engine needs inlined source maps)
 ReactDOM.render(
   <StyletronProvider value={engine} debug={debug} debugAfterHydration>
-    <App />
+    <ThemeProvider theme={theme}>
+      <StyleReset />
+      <App />
+    </ThemeProvider>
   </StyletronProvider>,
   document.getElementById('root')
 );
