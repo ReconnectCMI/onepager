@@ -1,5 +1,6 @@
 import './App.css';
 import { Row, Col, Div, Container, Text, Input, Icon } from "atomize";
+import React from 'react';
 
 const InputName = () => {
   return (
@@ -24,7 +25,7 @@ const InputName = () => {
 
 function App() {
   return (
-    <Container>
+    <Container className="App">
       <Row>
         <Col size={{ xs: 12, lg: 1 }}>
           <Div p="1rem" bg="success700">
