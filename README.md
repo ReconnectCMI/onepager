@@ -37,4 +37,4 @@ ReactDOM.render(
 - Start and watch app: ```npm start```
 - Build the app: ```npm build```
 - Run the tests: ```npm test```
-- Run the linter(please do before committing changes): ````npm lint```
+- Run the linter(please do before committing changes): ```npm lint```
