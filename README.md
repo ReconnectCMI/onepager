@@ -24,6 +24,19 @@ After running the command you are in the command line of the container. In there
 
 Command: ```docker run -ite ${PWD}:/code node:14.16.0-alpine sh```
 
+## Routing
+If you are using routing and are using Github pages to host you app, you have to add the basename in the routing. This is because Github pages is not deploying it at the root but one level deeper.
+
+This is also why in the ```package.json``` there is a field:
+```"homepage": "https://<username>.github.io/<project>/",```
+
+To also get this to work with routing you need to add the basename to the router.
+From:
+```<Router>```
+To:
+```<Router basename={process.env.PUBLIC_URL}>```
+The value ```process.env.PUBLIC_URL``` is ```/<project>```. The basename property allows us to specify the actual base URL for the routes which, in this case, will be the sub-directory. 
+
 # How to install a react app with Atomize
 This is not needed to run locally or something, just when you ever want to create your own app you have to go through these steps to start fresh. Handy to have right? :)
 
