@@ -1,3 +1,4 @@
+![beautifull badge](https://github.com/ReconnectCMI/onepager/actions/workflows/build-deploy.yml/badge.svg?branch=main)
 # Get started
 Check here the Atomize docs: https://atomizecode.com/docs/react/atoms
 ## Usage
