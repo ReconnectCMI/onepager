@@ -16,9 +16,9 @@ class Project extends React.Component {
                 {/* <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/> */}
             <Tabs className='tab-demo z-depth-0'>
                 <Tab title="Connect"><Connect/></Tab>
+                <Tab title="Inzichten"><Insights/></Tab>
                 <Tab title="Concept"active><Concept/></Tab>
                 <Tab title="Create"><Create/></Tab>
-                <Tab title="Insights"><Insights/></Tab>
             </Tabs>
             </Div>
         );
