@@ -10,7 +10,7 @@ import React from 'react';
 function App() {
   return (
   <Div>
-    <Navbar centerLogo>
+    <Navbar fixed centerLogo>
       <a href="#" className="brand-logo center">Logo</a>
       <ul>
         <li><a href="#Team">Team</a></li>
@@ -19,8 +19,8 @@ function App() {
         <li><a href="#Proces">Proces</a></li>
     </ul>
     </Navbar>
+    <Banner/>
     <Container className="App">
-      <Banner/>
       <Team/>
       <Project/>
     </Container>

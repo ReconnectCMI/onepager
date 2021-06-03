@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css';
-import { Container } from "atomize";
+import { Div } from "atomize";
 import { Slider } from 'react-materialize';
 
 const sliderOptions = {
@@ -9,7 +9,7 @@ const sliderOptions = {
 class Banner extends React.Component {
     render() {
         return (
-            <Container minW="100%" className="Banner">
+            <Div minW="100%" className="Banner">
                 <Slider options={sliderOptions}>
                     <ul className="slides">
                         <li>
@@ -42,7 +42,7 @@ class Banner extends React.Component {
                         </li>
                     </ul>
                 </Slider>
-            </Container>
+            </Div>
         );
     } 
 }
