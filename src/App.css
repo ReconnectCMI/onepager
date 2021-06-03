@@ -1,9 +1,17 @@
+* {
+  font-family: Rubik;
+}
+
 .App {
   text-align: center;
 }
 
 .Team {
   text-align: left;
+}
+
+.Footer {
+  text-align: center;
 }
 
 .App-logo {
