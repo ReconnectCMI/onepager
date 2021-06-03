@@ -14,8 +14,8 @@ class Project extends React.Component {
                 <Text tag="h1" textAlign="center" textSize="display2" m={{ b: "0.5rem", t: "2rem" }}>Proces</Text>
                 {/* <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/> */}
             <Tabs className='tab-demo z-depth-0'>
-                <Tab title="Connect"active><Connect/></Tab>
-                <Tab title="Concept"><Concept/></Tab>
+                <Tab title="Connect"><Connect/></Tab>
+                <Tab title="Concept"active><Concept/></Tab>
                 <Tab title="Create"><Create/></Tab>
             </Tabs>
             </Div>
