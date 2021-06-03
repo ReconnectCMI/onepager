@@ -1,6 +1,5 @@
 import React from 'react';
-import { Text, Row, Div, Col, Image } from "atomize";
-import contactImage from "../images/contact.jpg";
+import { Text, Row, Div, Col } from "atomize";
 import mio from "../images/mio.png";
 import timon from "../images/timon.png";
 import yasmin from "../images/yasmin.png";
@@ -20,9 +19,9 @@ class Contact extends React.Component {
     render() {
         return (
             <Div m={{b:"4rem",}}>
-
             <Text tag="h1" textAlign="center" textSize="display2" m={{ b: "2rem", t: "2rem" }}>Contact</Text>
             <Row>
+                <Col size="4"></Col>
                 <Col textAlign="left" size="4">
                     <Collapsible accordion defaultActiveKey={1}>
                         <CollapsibleItem header={this.chip("Timon", timon)}>
@@ -42,15 +41,7 @@ class Contact extends React.Component {
                         </CollapsibleItem>
                     </Collapsible>
                 </Col>
-                <Col size="4">
-                    {/* <Div>
-                    <Text tag="h3" textAlign="center" textSize="display1" m={{ b: "0", t: "0" }}>Social</Text>
-                    </Div>
-                    <a className="waves-effect waves-light btn">Github<i className="material-icons left">cloud</i></a> */}
-                </Col>
-                <Col size="4">
-                    <Image src={contactImage}></Image>
-                </Col>
+                <Col size="4"></Col>
             </Row>
             </Div>
         );
