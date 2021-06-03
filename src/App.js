@@ -3,6 +3,7 @@ import { Container, Div } from "atomize";
 import 'materialize-css';
 import { Navbar, Footer } from 'react-materialize';
 import Team from './components/team'
+import Contact from './components/contact'
 import Project from './components/project'
 import Banner from './components/banner'
 import React from 'react';
@@ -23,6 +24,7 @@ function App() {
       <Container className="App">
         <Team/>
         <Project className="Project"/>
+        <Contact/>
       </Container>
       <Footer className="Footer green lighten-2" copyrights="© 2021 Reconnect"></Footer>
     </Div>
