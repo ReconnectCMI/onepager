@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/onepager/static/css/main.05348a14.chunk.css",
+    "main.css": "/onepager/static/css/main.1a16369f.chunk.css",
     "main.js": "/onepager/static/js/main.031982c8.chunk.js",
     "main.js.map": "/onepager/static/js/main.031982c8.chunk.js.map",
     "runtime-main.js": "/onepager/static/js/runtime-main.672b32b5.js",
@@ -10,13 +10,13 @@
     "static/js/3.e0ca38d4.chunk.js": "/onepager/static/js/3.e0ca38d4.chunk.js",
     "static/js/3.e0ca38d4.chunk.js.map": "/onepager/static/js/3.e0ca38d4.chunk.js.map",
     "index.html": "/onepager/index.html",
-    "static/css/main.05348a14.chunk.css.map": "/onepager/static/css/main.05348a14.chunk.css.map",
+    "static/css/main.1a16369f.chunk.css.map": "/onepager/static/css/main.1a16369f.chunk.css.map",
     "static/js/2.627c5ae5.chunk.js.LICENSE.txt": "/onepager/static/js/2.627c5ae5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.672b32b5.js",
     "static/js/2.627c5ae5.chunk.js",
-    "static/css/main.05348a14.chunk.css",
+    "static/css/main.1a16369f.chunk.css",
     "static/js/main.031982c8.chunk.js"
   ]
 }
