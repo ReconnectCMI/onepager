@@ -6,12 +6,13 @@ import Team from './components/team'
 import Project from './components/project'
 import Banner from './components/banner'
 import React from 'react';
+import Logo from "./images/reconnect-logo.png";
 
 function App() {
   return (
     <Div>
-      <Navbar fixed centerLogo>
-        <a href="#" className="brand-logo center">Logo</a>
+      <Navbar className="green lighten-2" fixed centerLogo>
+        <a href="#" className="brand-logo center"><img height="70px" src={Logo}/></a>
         <ul>
           <li><a href="#Team">Team</a></li>
           <li><a href="#Proces">Proces</a></li>
@@ -21,9 +22,9 @@ function App() {
       <Banner/>
       <Container className="App">
         <Team/>
-        <Project/>
+        <Project className="Project"/>
       </Container>
-      <Footer className="Footer" copyrights="© 2021 Reconnect"></Footer>
+      <Footer className="Footer green lighten-2" copyrights="© 2021 Reconnect"></Footer>
     </Div>
   );
 }

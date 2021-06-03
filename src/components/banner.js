@@ -15,29 +15,22 @@ class Banner extends React.Component {
                         <li>
                             <img src="https://lorempixel.com/580/250/nature/1"/>
                             <div className="caption center-align">
-                            <Text tag="h3" textSize="display3">Big text</Text>
-                            <Text className="light grey-text text-lighten-3" tag="h5" textSize="display1">Smaller info text</Text>
+                            <Text tag="h3" textSize="display3">Reconnect</Text>
+                            <Text className="light grey-text text-lighten-3" tag="h5" textSize="display1">Toegankelijkheid voor iedereen</Text>
                             </div>
                         </li>
                         <li>
                             <img src="https://lorempixel.com/580/250/nature/2"/>
                             <div className="caption left-align">
-                            <Text tag="h3" textSize="display3">Big text</Text>
-                            <Text className="light grey-text text-lighten-3" tag="h5" textSize="display1">Smaller info text</Text>
+                            <Text tag="h3" textSize="display3">Reconnect</Text>
+                            <Text className="light grey-text text-lighten-3" tag="h5" textSize="display1">Virtuele assistente</Text>
                             </div>
                         </li>
                         <li>
                             <img src="https://lorempixel.com/580/250/nature/3"/>
                             <div className="caption right-align">
-                            <Text tag="h3" textSize="display3">Big text</Text>
-                            <Text className="light grey-text text-lighten-3" tag="h5" textSize="display1">Smaller info text</Text>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="https://lorempixel.com/580/250/nature/4"/>
-                            <div className="caption center-align">
-                            <Text tag="h3" textSize="display3">Big text</Text>
-                            <Text className="light grey-text text-lighten-3" tag="h5" textSize="display1">Smaller info text</Text>
+                            <Text tag="h3" textSize="display3">Reconnect</Text>
+                            <Text className="light grey-text text-lighten-3" tag="h5" textSize="display1">Iconen op maat gemaakt</Text>
                             </div>
                         </li>
                     </ul>
