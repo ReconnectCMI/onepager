@@ -1,5 +1,9 @@
 # Get started
 Check here the Atomize docs: https://atomizecode.com/docs/react/atoms
+
+Check here the Materialize CSS docs: https://materializecss.com/about.html
+
+Check here the Materialize React docs: http://react-materialize.github.io/react-materialize
 ## Usage
 
 - Install dependencies: ```npm install```
@@ -37,7 +41,7 @@ To:
 ```<Router basename={process.env.PUBLIC_URL}>```
 The value ```process.env.PUBLIC_URL``` is ```/<project>```. The basename property allows us to specify the actual base URL for the routes which, in this case, will be the sub-directory. 
 
-# How to install a react app with Atomize
+# How to install a react app with Atomize and React-materialize
 This is not needed to run locally or something, just when you ever want to create your own app you have to go through these steps to start fresh. Handy to have right? :)
 
 - Create the react app: ```npm init react-app my-app```
@@ -66,4 +70,7 @@ ReactDOM.render(
   </StyletronProvider>
 );
 ```
+- Install Materialize css ```npm install materialize-css@next```
+- Install React Materialize ```npm install react-materialize```
+- Add the Materialize css and js CDN to the ```public/index.html```
 - ```npm start``` and have fun ;)
