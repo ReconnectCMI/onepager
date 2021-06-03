@@ -8,6 +8,7 @@ import Project from './components/project'
 import Banner from './components/banner'
 import React from 'react';
 import Logo from "./images/reconnect-logo.png";
+import Insights from "./components/insights";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Banner/>
       <Container className="App">
         <Team/>
+        <Insights/>
         <Project className="Project"/>
         <Contact/>
       </Container>
