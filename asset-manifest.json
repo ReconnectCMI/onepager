@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/onepager/static/css/main.05348a14.chunk.css",
-    "main.js": "/onepager/static/js/main.b74ffb39.chunk.js",
-    "main.js.map": "/onepager/static/js/main.b74ffb39.chunk.js.map",
+    "main.js": "/onepager/static/js/main.031982c8.chunk.js",
+    "main.js.map": "/onepager/static/js/main.031982c8.chunk.js.map",
     "runtime-main.js": "/onepager/static/js/runtime-main.672b32b5.js",
     "runtime-main.js.map": "/onepager/static/js/runtime-main.672b32b5.js.map",
-    "static/js/2.37f59037.chunk.js": "/onepager/static/js/2.37f59037.chunk.js",
-    "static/js/2.37f59037.chunk.js.map": "/onepager/static/js/2.37f59037.chunk.js.map",
+    "static/js/2.627c5ae5.chunk.js": "/onepager/static/js/2.627c5ae5.chunk.js",
+    "static/js/2.627c5ae5.chunk.js.map": "/onepager/static/js/2.627c5ae5.chunk.js.map",
     "static/js/3.e0ca38d4.chunk.js": "/onepager/static/js/3.e0ca38d4.chunk.js",
     "static/js/3.e0ca38d4.chunk.js.map": "/onepager/static/js/3.e0ca38d4.chunk.js.map",
     "index.html": "/onepager/index.html",
     "static/css/main.05348a14.chunk.css.map": "/onepager/static/css/main.05348a14.chunk.css.map",
-    "static/js/2.37f59037.chunk.js.LICENSE.txt": "/onepager/static/js/2.37f59037.chunk.js.LICENSE.txt"
+    "static/js/2.627c5ae5.chunk.js.LICENSE.txt": "/onepager/static/js/2.627c5ae5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.672b32b5.js",
-    "static/js/2.37f59037.chunk.js",
+    "static/js/2.627c5ae5.chunk.js",
     "static/css/main.05348a14.chunk.css",
-    "static/js/main.b74ffb39.chunk.js"
+    "static/js/main.031982c8.chunk.js"
   ]
 }
