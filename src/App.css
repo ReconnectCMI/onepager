@@ -1,4 +1,4 @@
-*{
+* {
   font-family: Rubik;
 }
 
@@ -8,6 +8,10 @@
 
 .Team {
   text-align: left;
+}
+
+.Footer {
+  text-align: center;
 }
 
 .App-logo {
