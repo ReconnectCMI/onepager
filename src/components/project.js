@@ -6,6 +6,7 @@ import {Tab, Tabs} from 'react-materialize';
 import Connect from "./connect"
 import Concept from "./concept"
 import Create from "./create"
+import Insights from "./insights"
 
 class Project extends React.Component {
     render() {
@@ -17,6 +18,7 @@ class Project extends React.Component {
                 <Tab title="Connect"><Connect/></Tab>
                 <Tab title="Concept"active><Concept/></Tab>
                 <Tab title="Create"><Create/></Tab>
+                <Tab title="Insights"><Insights/></Tab>
             </Tabs>
             </Div>
         );

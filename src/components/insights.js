@@ -1,13 +1,12 @@
 import React from 'react';
 import 'materialize-css';
-import { Div, Row, Col, Text } from "atomize";
+import { Div, Row, Col } from "atomize";
 import { Card } from 'react-materialize';
 
 class Insights extends React.Component {
     render() {
         return (
             <Div minW="100%" className="Insights">
-                <Text tag="h1" textAlign="center" textSize="display2" m={{ b: "0.5rem", t: "2rem" }}>Insights</Text>
                 <Row>
                     <Col size="4">
                         <Div>
