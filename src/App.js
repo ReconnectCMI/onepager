@@ -3,6 +3,7 @@ import { Container } from "atomize";
 import 'materialize-css';
 import { Navbar, Footer } from 'react-materialize';
 import Team from './components/team'
+import Project from './components/project'
 import Banner from './components/banner'
 import React from 'react';
 
@@ -20,6 +21,7 @@ function App() {
       </Navbar>
       <Banner/>
       <Team/>
+      <Project/>
       <Footer copyrights="© 2021 Reconnect" />
     </Container>
   );
