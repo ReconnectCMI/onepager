@@ -1,12 +1,13 @@
 import React from 'react';
 import 'materialize-css';
-import { Div, Container, Row, Col } from "atomize";
+import { Div, Row, Col, Text } from "atomize";
 import { Card } from 'react-materialize';
 
 class Team extends React.Component {
     render() {
         return (
-            <Container minW="100%" className="Team">
+            <Div minW="100%" className="Team">
+                <Text tag="h1" textAlign="center" textSize="display2" m={{ b: "0.5rem", t: "2rem" }}>Team</Text>
                 <Row>
                     <Col size="3">
                         <Div>
@@ -61,7 +62,7 @@ class Team extends React.Component {
                         </Div>
                     </Col>
                 </Row>
-            </Container>
+            </Div>
         );
     } 
 }
