@@ -14,6 +14,21 @@
   text-align: center;
 }
 
+.tabs .tab a:hover,
+ .tabs .tab a.active,
+  .tabs .tab a {
+  color: #2e7d32 !important;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  color: #4caf50 !important;
+  background-color: rgba(232,245,233,0.4) !important;
+}
+
+.tabs .indicator {
+  background-color: #4caf50 !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

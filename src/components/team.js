@@ -1,5 +1,9 @@
 import React from 'react';
 import 'materialize-css';
+import mio from "../images/mio.png";
+import timon from "../images/timon.png";
+import yasmin from "../images/yasmin.png";
+import ismail from "../images/ismail.png";
 import { Div, Row, Col, Text } from "atomize";
 import { Card } from 'react-materialize';
 
@@ -13,7 +17,7 @@ class Team extends React.Component {
                         <Div>
                             <Card>
                                 <div className="card-image">
-                                    <img src="https://ccdi-unisg.ch/wp-content/uploads/2019/03/blank-profile-picture-973460_1280-1024x1024.png"/>
+                                    <img src={ismail}/>
                                         <span className="card-title">Ismail</span>
                                 </div>
                                 <div className="card-content">
@@ -26,7 +30,7 @@ class Team extends React.Component {
                         <Div>
                             <Card>
                                 <div className="card-image">
-                                    <img src="https://ccdi-unisg.ch/wp-content/uploads/2019/03/blank-profile-picture-973460_1280-1024x1024.png"/>
+                                    <img src={timon}/>
                                         <span className="card-title">Timon</span>
                                 </div>
                                 <div className="card-content">
@@ -39,7 +43,7 @@ class Team extends React.Component {
                         <Div>
                             <Card>
                                 <div className="card-image">
-                                    <img src="https://ccdi-unisg.ch/wp-content/uploads/2019/03/blank-profile-picture-973460_1280-1024x1024.png"/>
+                                    <img src={mio}/>
                                         <span className="card-title">Mio</span>
                                 </div>
                                 <div className="card-content">
@@ -52,7 +56,7 @@ class Team extends React.Component {
                         <Div>
                             <Card>
                                 <div className="card-image">
-                                    <img src="https://ccdi-unisg.ch/wp-content/uploads/2019/03/blank-profile-picture-973460_1280-1024x1024.png"/>
+                                    <img src={yasmin}/>
                                         <span className="card-title">Yasmin</span>
                                 </div>
                                 <div className="card-content">
