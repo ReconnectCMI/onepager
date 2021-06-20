@@ -71,3 +71,7 @@
 .navbar-fixed {
   width: 100% !important;
 }
+
+nav ul a:hover {
+  background-color: transparent;
+}
