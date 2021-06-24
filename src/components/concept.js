@@ -11,7 +11,7 @@ class Concept extends React.Component {
     render() {
         return (
             <Container minW="100%" className="Team">
-                <Row>
+                <Row className="margin-fix">
                     <Col size="4">
                         <Card header={<CardTitle reveal image={Clippy} waves='light'/>}
                             title="Digi Clippy"
