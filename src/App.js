@@ -5,6 +5,7 @@ import { Navbar, Footer } from 'react-materialize';
 import Team from './components/team'
 import Contact from './components/contact'
 import Project from './components/project'
+import Miro from './components/miro'
 import Banner from './components/banner'
 import React from 'react';
 import Logo from "./images/reconnect-logo.png";
@@ -27,6 +28,7 @@ function App() {
         <Team/>
         <DesignGuidelines/>
         <Project className="Project"/>
+        <Miro/>
         <Contact/>
       </Container>
       <Footer className="Footer green lighten-2" copyrights="© 2021 Reconnect"></Footer>
